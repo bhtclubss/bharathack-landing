@@ -13,50 +13,73 @@
       color: #333;
       text-align: center;
     }
+
+    /* HEADER */
     header {
-      background: #222;
-      color: fff;
-      padding: 40px 20px;
+      background: #ff3b3b;
+      color: #fff;
+      padding: 50px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
-    h1 {
+
+    header h1 {
       margin: 0;
-      font-size: 2.2em;
+      font-size: 2.4em;
+      font-weight: 600;
     }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1em;
+      color: #ffeaea;
+    }
+
+    /* MAIN CONTENT */
     main {
       max-width: 700px;
-      margin: 40px auto;
+      margin: 50px auto;
       padding: 0 20px;
       text-align: left;
-      line-height: 1.6;
+      line-height: 1.7;
     }
+
     p {
       font-size: 1rem;
       margin-bottom: 20px;
     }
-    .buttons {
+
+    /* BUTTON STYLE */
+    .join-section {
       text-align: center;
-      margin-top: 30px;
+      margin-top: 50px;
     }
-    a.button {
+
+    .join-button {
       display: inline-block;
+      background: #ff3b3b;
+      color: #fff;
+      padding: 14px 36px;
+      border-radius: 10px;
       text-decoration: none;
-      color: fff;
-      background: #222;
-      padding: 12px 24px;
-      border-radius: 6px;
-      margin: 10px;
       font-weight: bold;
-      transition: background 0.3s ease;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(255, 59, 59, 0.4);
     }
-    a.button:hover {
+
+    .join-button:hover {
       background: #e13333;
+      box-shadow: 0 6px 14px rgba(255, 59, 59, 0.5);
+      transform: translateY(-2px);
     }
+
+    /* FOOTER */
     footer {
-      background: #eee;
+      background: #222;
       padding: 20px;
       font-size: 0.9em;
-      color: #555;
-      margin-top: 50px;
+      color: #ddd;
+      margin-top: 60px;
     }
   </style>
 </head>
@@ -69,7 +92,7 @@
 
   <main>
     <p>
-      Welcome to <strong>BHT Club</strong> an independent website that provides insights, updates, and educational
+      Welcome to <strong>BHT Club</strong>, an independent website that provides insights, updates, and educational
       content about the growing gaming and tech communities across India.
       Our mission is to inform users about online gaming culture, platforms, and digital trends in a responsible way.
     </p>
@@ -80,20 +103,17 @@
       For verified platforms and updates, please ensure you check official sources.
     </p>
 
-  <p style="font-size: 0.95rem; color: #555; margin-top: 30px;">
-  <strong>Disclaimer:</strong> BharatHack is an independent platform created to share information and updates 
-  about online gaming communities and digital innovation in India. This website does not host, promote, 
-  or endorse any real-money gaming, gambling, or betting activities. All content provided here is for 
-  informational and educational purposes only.
-</p>
+    <p style="font-size: 0.95rem; color: #555; margin-top: 30px;">
+      <strong>Disclaimer:</strong> BharatHack is an independent platform created to share information and updates 
+      about online gaming communities and digital innovation in India. This website does not host, promote, 
+      or endorse any real-money gaming, gambling, or betting activities. All content provided here is for 
+      informational and educational purposes only.
+    </p>
 
-  <p style="text-align: center; margin-top: 40px;">
-  For community discussions, updates, and verified information about BharatHack and gaming innovation, 
-  you can join our official group below.
-</p>
-
-<a href="t.me/Bharatsureshot" target="_blank" class="button">Join Our Community</a>
-    <div class="buttons">
+    <div class="join-section">
+      <p>For community discussions, updates, and verified information about BharatHack and gaming innovation, 
+      you can join our official group below.</p>
+      <a href="https://t.me/Bharatsureshot" target="_blank" class="join-button">Join Our Community</a>
     </div>
   </main>
 
@@ -103,5 +123,3 @@
 
 </body>
 </html>
-
-
