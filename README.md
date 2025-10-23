@@ -1,2 +1,2 @@
 # bharathack-landing
-nformational landing page about skill-based gaming communities in India.
+Informational landing page about skill-based gaming communities in India.
